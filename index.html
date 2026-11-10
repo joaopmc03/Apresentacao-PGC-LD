@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Conferência da Pasta × LD | PGC Engenharia</title>
+<title>Conferência da Pasta × LD (resumida) | PGC Engenharia</title>
 <style>
   :root {
     --navy: #1F3B63;
@@ -737,9 +737,7 @@
 
   <img src="img/logo-pgc.png" class="stage-logo hide" id="stage-logo" alt="PGC Engenharia">
 
-  <!-- ══════════════════════════════════════
-       1 — CAPA
-  ══════════════════════════════════════ -->
+  <!-- 1 — CAPA -->
   <section class="slide slide-cover active">
     <div class="blueprint"></div>
     <img src="img/logo-pgc.png" class="cover-logo anim" style="--d:0" alt="PGC Engenharia">
@@ -750,468 +748,170 @@
     </div>
     <div class="cover-badges anim" style="--d:4">
       <div class="cover-badge">📋 Conferência integral</div>
-      <div class="cover-badge">🗂️ Uma verificação por LD</div>
       <div class="cover-badge">📄 Relatório oficial com versões</div>
       <div class="cover-badge">🔒 Processado só no computador da PGC</div>
     </div>
     <div class="cover-doc">Apresentação ao Gerente do Contrato<br>Outubro/2026</div>
   </section>
 
-  <!-- ══════════════════════════════════════
-       2 — O CONTEXTO
-  ══════════════════════════════════════ -->
+  <!-- 2 — O PROBLEMA E O QUE É CONFERIDO -->
   <section class="slide slide-content">
     <div class="slide-header">
-      <div class="step">O contexto</div>
-      <h2>A entrega é uma pasta compartilhada por link</h2>
+      <div class="step">O problema</div>
+      <h2>A entrega é uma pasta aberta por link</h2>
       <p>Tudo o que estiver dentro dela chega ao cliente, inclusive o que não deveria estar</p>
     </div>
     <div class="slide-body">
       <div class="cards-grid cards-grid-3" style="margin-bottom:26px">
         <div class="card card-navy anim" style="--d:0">
-          <span class="card-icon">📑</span>
-          <h3>A LD é o compromisso</h3>
-          <p>A Lista de Documentos diz <strong>o que</strong> vai ao cliente, em <strong>qual revisão</strong>, em qual formato e com quantas folhas. Há uma LD por plataforma.</p>
-        </div>
-        <div class="card card-navy anim" style="--d:1">
-          <span class="card-icon">🗂️</span>
-          <h3>A pasta é a entrega</h3>
-          <p>Uma pasta, uma subpasta por plataforma (P-38, P-40, P-43, P-48, P-51, P-53, P-56) e, dentro dela, uma subpasta por documento. Cada documento vai com o <strong>editável</strong> (DWG, DOC…) e o <strong>PDF</strong>.</p>
-        </div>
-        <div class="card card-red anim" style="--d:2">
-          <span class="card-icon">🔗</span>
-          <h3>O link é aberto</h3>
-          <p>Documento faltando, revisão antiga esquecida, cópia duplicada ou arquivo de outro projeto: <strong>o cliente vê tudo</strong>, exatamente como está na pasta.</p>
-        </div>
-      </div>
-
-      <div class="highlight-box anim" style="--d:3">
-        <strong class="t">A pergunta que a conferência responde</strong>
-        Cada documento da LD está na pasta, na revisão certa, completo, e não há nada além dele?
-        Feita à mão, é preciso abrir centenas de subpastas e comparar item a item com a planilha.
-      </div>
-    </div>
-  </section>
-
-  <!-- ══════════════════════════════════════
-       3 — O QUE É CONFERIDO
-  ══════════════════════════════════════ -->
-  <section class="slide slide-content">
-    <div class="slide-header">
-      <div class="step">Escopo</div>
-      <h2>O que é conferido</h2>
-      <p>Três frentes: cada documento da LD, a pasta como um todo e a própria LD</p>
-    </div>
-    <div class="slide-body">
-      <div class="cards-grid cards-grid-3">
-        <div class="card card-navy anim" style="--d:0">
           <span class="card-icon">📄</span>
           <h3>Cada documento da LD</h3>
           <ul>
-            <li>Existe arquivo com o número do documento</li>
-            <li>A revisão do arquivo é a revisão da LD</li>
-            <li>Tem o <strong>editável</strong> pedido na LD e o <strong>PDF</strong></li>
-            <li>Páginas do PDF × folhas declaradas na LD</li>
-            <li>Revisão antiga junto, cópia duplicada, arquivo vazio</li>
-            <li>Arquivo guardado na subpasta de outro documento</li>
+            <li>Está na pasta, na <strong>revisão da LD</strong></li>
+            <li>Tem o <strong>editável</strong> e o <strong>PDF</strong></li>
+            <li>Páginas do PDF × folhas da LD</li>
+            <li>Sem revisão antiga, duplicata ou arquivo vazio</li>
           </ul>
         </div>
-        <div class="card card-violet anim" style="--d:1">
+        <div class="card card-red anim" style="--d:1">
           <span class="card-icon">🗂️</span>
           <h3>A pasta como um todo</h3>
           <ul>
-            <li>Arquivo que está na pasta e <strong>não está na LD</strong>, que iria para o cliente pelo link</li>
-            <li>Arquivo sem número de documento no nome</li>
-            <li>Número com separador trocado, apontado para correção</li>
+            <li>Arquivo que <strong>não está na LD</strong> e iria para o cliente pelo link</li>
+            <li>Arquivo sem número de documento</li>
           </ul>
         </div>
         <div class="card card-amber anim" style="--d:2">
           <span class="card-icon">📑</span>
           <h3>A própria LD</h3>
           <ul>
-            <li>Item repetido</li>
+            <li>Item ou número repetido</li>
             <li>Linha sem revisão</li>
-            <li>Número de documento repetido</li>
             <li>Item fora de ordem</li>
           </ul>
-          <p style="margin-top:14px;font-size:15px;color:var(--muted)">Defeito na LD também impede o CONFORME: a lista tem de estar certa antes de a pasta ser comparada com ela.</p>
         </div>
+      </div>
+      <div class="highlight-box anim" style="--d:3">
+        <strong class="t">A pergunta que a conferência responde</strong>
+        Cada documento da LD está na pasta, na revisão certa, completo, e não há nada além dele?
       </div>
     </div>
   </section>
 
-  <!-- ══════════════════════════════════════
-       4 — COMO FUNCIONA
-  ══════════════════════════════════════ -->
+  <!-- 3 — COMO FUNCIONA E O RESULTADO -->
   <section class="slide slide-content">
     <div class="slide-header">
       <div class="step">Funcionamento</div>
       <h2>Da pasta ao relatório, em um clique</h2>
-      <p>Programa instalado no computador de quem confere, com ícone na Área de Trabalho</p>
+      <p>Todo documento da LD e todo arquivo da pasta, um a um, sem amostragem</p>
     </div>
     <div class="slide-body">
       <div class="flow">
         <div class="flow-step anim" style="--d:0">
           <div class="flow-circle" style="background:#E6EDF6">📁<span class="flow-num">1</span></div>
           <h4>Escolhe a pasta</h4>
-          <p>Uma plataforma ou a pasta de cima, com todas</p>
+          <p>Uma plataforma ou todas</p>
         </div>
         <div class="flow-step anim" style="--d:1">
           <div class="flow-circle" style="background:#EEEBF8">📑<span class="flow-num">2</span></div>
           <h4>Lê as LDs</h4>
-          <p>Acha a LD de cada plataforma, na revisão mais nova</p>
+          <p>Na revisão mais nova</p>
         </div>
         <div class="flow-step anim" style="--d:2">
           <div class="flow-circle" style="background:#FDF3DC">🔍<span class="flow-num">3</span></div>
           <h4>Confere item a item</h4>
-          <p>Todo documento da LD e todo arquivo da pasta</p>
+          <p>Pelo número no nome do arquivo</p>
         </div>
         <div class="flow-step anim" style="--d:3">
-          <div class="flow-circle" style="background:#FBE9E9">🏷️<span class="flow-num">4</span></div>
-          <h4>Classifica</h4>
-          <p>Conforme, Conferir, Falta ou Fora da LD</p>
-        </div>
-        <div class="flow-step anim" style="--d:4">
-          <div class="flow-circle" style="background:#E3F5EE">📄<span class="flow-num">5</span></div>
+          <div class="flow-circle" style="background:#E3F5EE">📄<span class="flow-num">4</span></div>
           <h4>Emite o relatório</h4>
-          <p>Um PDF oficial por LD, numerado como versão</p>
+          <p>Um PDF oficial por LD</p>
         </div>
       </div>
-
-      <div class="section-title anim" style="--d:5">Como o documento é reconhecido</div>
-      <div class="cards-grid cards-grid-2 anim" style="--d:6">
-        <div class="tip tip-navy">
-          <div class="tip-icon">🔢</div>
-          <div class="tip-text"><strong>Pelo número no nome do arquivo</strong>, no mesmo padrão da LD:<br>
-            <span class="fname">IS-3010.49-5420-200-GP9-001=0.dwg</span> &nbsp;número <strong>=</strong> revisão . formato<br>
-            O padrão com sublinhado (<span class="fname">_0</span>) também é aceito.</div>
-        </div>
-        <div class="tip tip-green">
-          <div class="tip-icon">🛡️</div>
-          <div class="tip-text"><strong>Só lê.</strong> Não altera, não move e não apaga nada na pasta. O relatório é gravado <strong>fora</strong> dela. Se fosse gravado dentro, iria junto para o cliente.</div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- ══════════════════════════════════════
-       5 — AS CLASSIFICAÇÕES
-  ══════════════════════════════════════ -->
-  <section class="slide slide-content">
-    <div class="slide-header">
-      <div class="step">Classificação</div>
-      <h2>Cada item recebe um de quatro resultados</h2>
-      <p>A mesma linguagem aparece na tela do programa e no relatório oficial</p>
-    </div>
-    <div class="slide-body">
-      <div class="status-grid" style="margin-bottom:26px">
-        <div class="status st-ok anim" style="--d:0">
+      <div class="status-grid" style="margin-bottom:22px">
+        <div class="status st-ok anim" style="--d:4">
           <span class="pill">Conforme</span>
-          <h4>Está tudo certo</h4>
-          <p>O documento está na pasta, na revisão da LD, com o editável e o PDF.</p>
+          <p>Na pasta, na revisão da LD, com editável e PDF.</p>
         </div>
-        <div class="status st-warn anim" style="--d:1">
+        <div class="status st-warn anim" style="--d:5">
           <span class="pill">Conferir</span>
-          <h4>Está, mas com ressalva</h4>
-          <p>Falta o PDF, revisão antiga junto, cópia duplicada, nome fora do padrão ou páginas diferentes das folhas.</p>
+          <p>Está, mas com ressalva: sem PDF, revisão antiga junto, páginas diferentes.</p>
         </div>
-        <div class="status st-miss anim" style="--d:2">
+        <div class="status st-miss anim" style="--d:6">
           <span class="pill">Falta</span>
-          <h4>Não está na pasta</h4>
-          <p>O documento não foi encontrado, ou só existe em outra revisão.</p>
+          <p>Não está na pasta, ou só em outra revisão.</p>
         </div>
-        <div class="status st-out anim" style="--d:3">
+        <div class="status st-out anim" style="--d:7">
           <span class="pill">Fora da LD</span>
-          <h4>Está sobrando</h4>
-          <p>O arquivo está na pasta e não está na LD. Com o link aberto, o cliente recebe esse arquivo também.</p>
+          <p>Está sobrando e iria para o cliente pelo link.</p>
         </div>
       </div>
-
-      <div class="cards-grid cards-grid-2">
-        <div class="tip tip-navy anim" style="--d:4">
-          <div class="tip-icon">🖱️</div>
-          <div class="tip-text"><strong>Achar o arquivo é imediato:</strong> clicar no número do documento copia o número para colar na busca do Drive.</div>
-        </div>
-        <div class="tip tip-amber anim" style="--d:5">
-          <div class="tip-icon">📑</div>
-          <div class="tip-text"><strong>Defeitos da LD</strong> aparecem em bloco próprio, separados dos arquivos, para não confundir erro da lista com erro da pasta.</div>
-        </div>
+      <div class="formula-box anim" style="--d:8">
+        <span class="ok">CONFORME</span> só com 100% &nbsp;<span class="c">·</span>&nbsp; qualquer pendência = <span class="no">NÃO CONFORME</span>, com a lista item a item
       </div>
     </div>
   </section>
 
-  <!-- ══════════════════════════════════════
-       6 — A REGRA DO CONFORME
-  ══════════════════════════════════════ -->
-  <section class="slide slide-content">
-    <div class="slide-header">
-      <div class="step">Critério</div>
-      <h2>CONFORME só com 100%</h2>
-      <p>Não existe "quase conforme": ou a pasta está completa, ou o relatório lista o que falta</p>
-    </div>
-    <div class="slide-body">
-      <div class="formula-box anim" style="--d:0;margin-bottom:28px">
-        <span class="ok">CONFORME</span> &nbsp;= &nbsp;0 falta &nbsp;+ &nbsp;0 a conferir &nbsp;+ &nbsp;0 fora da LD &nbsp;+ &nbsp;0 sem número &nbsp;+ &nbsp;0 defeito grave na LD<br>
-        <span class="no">NÃO CONFORME</span> = qualquer outra situação &nbsp;<span class="c">← sai com a lista de pendências, item por item</span>
-      </div>
-
-      <div class="cards-grid cards-grid-3">
-        <div class="card card-green anim" style="--d:1">
-          <span class="card-icon">🔎</span>
-          <h3>Integral, sem amostragem</h3>
-          <p>Todo documento da LD e todo arquivo da pasta, um a um. O relatório diz quantos: <em>"9 de 9 documentos da LD e 18 de 18 arquivos da pasta"</em>.</p>
-        </div>
-        <div class="card card-navy anim" style="--d:2">
-          <span class="card-icon">⚙️</span>
-          <h3>Regras fixas</h3>
-          <p>Cada documento passa pelas mesmas regras. Repetir a verificação na mesma pasta produz <strong>exatamente o mesmo resultado</strong>.</p>
-        </div>
-        <div class="card card-violet anim" style="--d:3">
-          <span class="card-icon">🧬</span>
-          <h3>Impressão digital da pasta</h3>
-          <p>Um código (SHA-256) identifica a pasta como estava. Se um arquivo for incluído, removido, renomeado ou mudar de tamanho depois, o código muda.</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- ══════════════════════════════════════
-       7 — VERSÕES
-  ══════════════════════════════════════ -->
+  <!-- 4 — VERSÕES E RESSALVAS -->
   <section class="slide slide-content">
     <div class="slide-header">
       <div class="step">Histórico</div>
       <h2>Cada conferência vira uma versão</h2>
-      <p>O programa guarda todas as verificações de cada LD, e cada relatório mostra o que mudou desde a anterior</p>
+      <p>Cada relatório mostra o que mudou desde a anterior · exemplo com dados fictícios</p>
     </div>
     <div class="slide-body">
-      <div class="section-title anim" style="--d:0">Exemplo da demonstração · dados fictícios</div>
       <div class="versions">
-        <div class="ver ver-no anim" style="--d:1">
+        <div class="ver ver-no anim" style="--d:0">
           <div class="vtag">V01</div>
           <span class="vres">NÃO CONFORME</span>
           <ul>
             <li>1 documento faltando</li>
-            <li>1 documento sem PDF</li>
-            <li>1 arquivo fora da LD</li>
-            <li>1 arquivo sem número</li>
+            <li>1 sem PDF · 1 fora da LD</li>
             <li>1 PDF com 3 páginas onde a LD diz 1</li>
           </ul>
         </div>
-        <div class="ver-arrow anim" style="--d:2">
+        <div class="ver-arrow anim" style="--d:1">
           <div class="arr">→</div>
           <span>Equipe corrige a pasta</span>
         </div>
-        <div class="ver ver-mid anim" style="--d:3">
+        <div class="ver ver-mid anim" style="--d:2">
           <div class="vtag">V02</div>
           <span class="vres">NÃO CONFORME</span>
           <ul>
-            <li>Falta, PDF, fora da LD e sem número <strong>resolvidos</strong></li>
-            <li>Resta só a diferença de páginas: o PDF tem anexos e a LD conta a folha principal</li>
+            <li>Resta só a diferença de páginas (o PDF tem anexos)</li>
           </ul>
         </div>
-        <div class="ver-arrow anim" style="--d:4">
+        <div class="ver-arrow anim" style="--d:3">
           <div class="arr">→</div>
           <span>Ressalva aceita com motivo</span>
         </div>
-        <div class="ver ver-ok anim" style="--d:5">
+        <div class="ver ver-ok anim" style="--d:4">
           <div class="vtag">V03</div>
           <span class="vres">CONFORME</span>
           <ul>
-            <li>Todos os documentos na revisão indicada</li>
-            <li>Ressalva registrada com <strong>nome, data e motivo</strong> de quem aceitou</li>
+            <li>Ressalva registrada com <strong>nome, data e motivo</strong></li>
           </ul>
         </div>
       </div>
-
       <div class="cards-grid cards-grid-2" style="margin-top:28px">
-        <div class="tip tip-navy anim" style="--d:6">
-          <div class="tip-icon">🗃️</div>
-          <div class="tip-text"><strong>Rastreável:</strong> um PDF por versão, com nome que já diz o resultado:<br><span class="fname">V02 - 21-10-2026 14h54 - NAO CONFORME.pdf</span></div>
+        <div class="tip tip-green anim" style="--d:5">
+          <div class="tip-icon">✓</div>
+          <div class="tip-text"><strong>Pode ser aceito com motivo:</strong> páginas diferentes das folhas, nome fora do padrão, formato diferente do declarado.</div>
         </div>
-        <div class="tip tip-green anim" style="--d:7">
-          <div class="tip-icon">↻</div>
-          <div class="tip-text"><strong>"Conferir de novo"</strong> repete a verificação da mesma pasta sem precisar escolher outra vez, e já sai a versão seguinte.</div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- ══════════════════════════════════════
-       8 — RESSALVAS
-  ══════════════════════════════════════ -->
-  <section class="slide slide-content">
-    <div class="slide-header">
-      <div class="step">Ressalvas</div>
-      <h2>O que pode ser aceito e o que tem de ser corrigido</h2>
-      <p>Algumas ressalvas são legítimas. Outras nunca: só saem corrigindo a pasta</p>
-    </div>
-    <div class="slide-body">
-      <div class="cards-grid cards-grid-2" style="margin-bottom:24px">
-        <div class="card card-green anim" style="--d:0">
-          <h3>✓ Aceita com motivo escrito</h3>
-          <ul class="rule-list rule-yes">
-            <li>Páginas do PDF diferentes das folhas da LD (ex.: anexos)</li>
-            <li>Nome fora do padrão (ex.: <span class="fname">_0</span> em vez de <span class="fname">=0</span>)</li>
-            <li>Separador trocado no número do documento</li>
-            <li>Nome do arquivo sem revisão</li>
-            <li>Formato diferente do declarado na LD</li>
-          </ul>
-        </div>
-        <div class="card card-red anim" style="--d:1">
-          <h3>✕ Não se aceita: corrige na pasta</h3>
-          <ul class="rule-list rule-no">
-            <li>Documento faltando · falta do PDF ou do editável</li>
-            <li>Cópia duplicada · revisão antiga junto · arquivo vazio</li>
-            <li>Arquivo na subpasta de outro documento</li>
-            <li>Arquivo fora da LD · arquivo sem número</li>
-            <li>Defeito grave na própria LD</li>
-          </ul>
-        </div>
-      </div>
-
-      <div class="tip tip-amber anim" style="--d:2">
-        <div class="tip-icon">⚖️</div>
-        <div class="tip-text"><strong>O aceite tem prazo de validade:</strong> ele vale enquanto o problema for exatamente o mesmo. Se o arquivo mudar (ex.: o PDF passa de 3 para 4 páginas), o aceite cai e o item volta a ser pendência na versão seguinte.</div>
-      </div>
-    </div>
-  </section>
-
-  <!-- ══════════════════════════════════════
-       9 — RELATÓRIO OFICIAL
-  ══════════════════════════════════════ -->
-  <section class="slide slide-content">
-    <div class="slide-header">
-      <div class="step">Relatório oficial</div>
-      <h2>Um documento formal por LD, com o timbrado da PGC</h2>
-      <p>O registro de que a pasta foi conferida, por quem, quando e com qual resultado</p>
-    </div>
-    <div class="slide-body" style="padding-bottom:90px">
-      <div class="report-wrap">
-        <div class="paper anim" style="--d:0">
-          <div class="paper-head">
-            <img src="img/logo-pgc.png" alt="PGC">
-            <span>RELATÓRIO DE VERIFICAÇÃO<br>PASTA × LD</span>
-          </div>
-          <h5>Relatório de Verificação da Pasta de Entrega × LD</h5>
-          <div class="cod">RVL · LD-3010.99-5000-940-GP9-001 · V03</div>
-          <div class="verdict">
-            <b>CONFORME</b>
-            <div class="bar" style="width:92%"></div><div class="bar" style="width:76%"></div>
-          </div>
-          <div class="secs">
-            <div class="sec">1. Identificação</div><div class="bar" style="width:88%"></div>
-            <div class="sec">2. Resultado</div><div class="bar" style="width:70%"></div>
-            <div class="sec">3. Histórico de verificações</div><div class="bar" style="width:80%"></div>
-            <div class="sec">4. O que mudou desde a V02</div><div class="bar" style="width:62%"></div>
-            <div class="sec">5. Relação de documentos da LD</div><div class="bar" style="width:90%"></div>
-            <div class="sec">6. Ressalvas aceitas</div><div class="bar" style="width:55%"></div>
-            <div class="sec">7. Escopo e método</div><div class="bar" style="width:74%"></div>
-          </div>
-          <div class="sig"><div>Verificado por</div><div>Aprovado por</div></div>
-        </div>
-
-        <div class="feat">
-          <div class="feat-item anim" style="--d:1">
-            <div class="fi">🏷️</div>
-            <div><strong>Identificação completa</strong><span>LD e revisão, plataforma, pasta verificada, data e hora, responsável, quantidade de arquivos e impressão digital.</span></div>
-          </div>
-          <div class="feat-item anim" style="--d:2">
-            <div class="fi">📊</div>
-            <div><strong>Resultado e histórico</strong><span>O veredito em uma frase, a tabela de todas as versões da LD e o que mudou desde a anterior: documentos que viraram conforme, arquivos que entraram e saíram.</span></div>
-          </div>
-          <div class="feat-item anim" style="--d:3">
-            <div class="fi">📋</div>
-            <div><strong>Relação item a item</strong><span>Cada documento da LD com o seu resultado, as pendências e as ressalvas aceitas com nome, data e motivo.</span></div>
-          </div>
-          <div class="feat-item anim" style="--d:4">
-            <div class="fi">✍️</div>
-            <div><strong>Escopo, método e assinaturas</strong><span>O que foi e o que não foi conferido, e os campos "verificado por" e "aprovado por".</span></div>
-          </div>
+        <div class="tip tip-red anim" style="--d:6;margin-top:0">
+          <div class="tip-icon">✕</div>
+          <div class="tip-text"><strong>Só sai corrigindo a pasta:</strong> documento ou PDF faltando, duplicata, revisão antiga, arquivo fora da LD.</div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- ══════════════════════════════════════
-       10 — SIGILO
-  ══════════════════════════════════════ -->
-  <section class="slide slide-dark">
-    <div class="dark-tag anim" style="--d:0">Sigilo da informação</div>
-    <div class="dark-title anim" style="--d:1">Nenhuma informação sai<br>do ambiente da PGC</div>
-    <div class="dark-sub anim" style="--d:2">A conferência é processada inteiramente no computador de quem a executa. Os documentos permanecem onde já estavam, sob o controle da PGC.</div>
-    <div class="glass-grid">
-      <div class="glass anim" style="--d:3">
-        <span class="gi">💻</span>
-        <h4>Roda localmente</h4>
-        <p>Instalado no computador de quem confere. Lê a pasta e grava o relatório ali mesmo.</p>
-      </div>
-      <div class="glass anim" style="--d:4">
-        <span class="gi">🚫</span>
-        <h4>Sem internet</h4>
-        <p>O programa não tem função de envio. Nenhum arquivo, nome de arquivo ou resultado é transmitido.</p>
-      </div>
-      <div class="glass anim" style="--d:5">
-        <span class="gi">🖨️</span>
-        <h4>PDF com rede bloqueada</h4>
-        <p>O relatório é gerado pelo navegador do próprio computador, com o acesso à rede bloqueado.</p>
-      </div>
-      <div class="glass anim" style="--d:6">
-        <span class="gi">🛡️</span>
-        <h4>Somente leitura</h4>
-        <p>Nada na pasta de entrega é criado, alterado, movido ou apagado.</p>
-      </div>
-    </div>
-  </section>
-
-  <!-- ══════════════════════════════════════
-       11 — LIMITES
-  ══════════════════════════════════════ -->
-  <section class="slide slide-content">
-    <div class="slide-header">
-      <div class="step">Limites</div>
-      <h2>O que a conferência não substitui</h2>
-      <p>Ela garante a completude da pasta. O conteúdo técnico continua com a equipe</p>
-    </div>
-    <div class="slide-body">
-      <div class="cards-grid cards-grid-2" style="margin-bottom:24px">
-        <div class="card card-navy anim" style="--d:0">
-          <span class="card-icon">✅</span>
-          <h3>A ferramenta garante</h3>
-          <ul class="rule-list rule-yes">
-            <li>Todo documento da LD está na pasta</li>
-            <li>Na revisão indicada na LD</li>
-            <li>Com o editável e o PDF</li>
-            <li>Sem nada a mais, sem duplicata, sem revisão antiga</li>
-            <li>Com registro formal, versionado e rastreável</li>
-          </ul>
-        </div>
-        <div class="card anim" style="--d:1">
-          <span class="card-icon">👷</span>
-          <h3>A equipe técnica continua conferindo</h3>
-          <ul class="rule-list rule-no">
-            <li>O conteúdo dos desenhos e documentos</li>
-            <li>Carimbo e assinatura</li>
-            <li>A abertura dos arquivos DWG e DOC</li>
-          </ul>
-          <p style="margin-top:14px;font-size:15px;color:var(--muted)">O relatório deixa isso escrito na seção "Escopo e método". Ele não atesta conteúdo técnico.</p>
-        </div>
-      </div>
-      <div class="tip tip-navy anim" style="--d:2">
-        <div class="tip-icon">🖥️</div>
-        <div class="tip-text"><strong>Histórico por computador:</strong> as versões ficam guardadas na máquina onde o programa está instalado. A conferência oficial deve ser feita sempre no mesmo computador, para a numeração seguir contínua.</div>
-      </div>
-    </div>
-  </section>
-
-  <!-- ══════════════════════════════════════
-       12 — NA PRÁTICA (prints)
-  ══════════════════════════════════════ -->
+  <!-- 5 — NA PRÁTICA -->
   <section class="slide slide-content">
     <div class="slide-header">
       <div class="step">Na prática</div>
-      <h2>A tela do programa</h2>
-      <p>Nova conferência em cima e, embaixo, todas as LDs já conferidas, com as versões</p>
+      <h2>A tela do programa e o relatório oficial</h2>
+      <p>Um PDF por versão, com timbrado da PGC, histórico e campos de assinatura</p>
     </div>
     <div class="slide-body" style="padding-top:26px;padding-bottom:96px">
       <div class="print-wrap">
@@ -1220,79 +920,52 @@
           <span class="pin" style="top:26%">1</span>
           <span class="pin" style="top:47%">2</span>
           <span class="pin" style="top:73.5%">3</span>
-          <span class="pin" style="top:98%">4</span>
         </div>
         <div class="feat">
           <div class="feat-item anim" style="--d:1">
             <div class="pin-n">1</div>
-            <div><strong>Nova conferência</strong><span>Quem confere escreve o nome e escolhe a pasta: uma plataforma ou a de cima, com todas. O nome vai para o relatório.</span></div>
+            <div><strong>Nova conferência</strong><span>Quem confere escreve o nome e escolhe a pasta. O nome vai para o relatório.</span></div>
           </div>
           <div class="feat-item anim" style="--d:2">
             <div class="pin-n">2</div>
-            <div><strong>Conferências feitas</strong><span>Uma linha por LD: plataforma, última versão, resultado e quando foi conferida.</span></div>
+            <div><strong>Conferências feitas</strong><span>Uma linha por LD: plataforma, última versão e resultado.</span></div>
           </div>
           <div class="feat-item anim" style="--d:3">
             <div class="pin-n">3</div>
-            <div><strong>Versões da LD selecionada</strong><span>Responsável, conformes, pendências e resultado de cada versão. Duplo clique abre o relatório oficial.</span></div>
-          </div>
-          <div class="feat-item anim" style="--d:4">
-            <div class="pin-n">4</div>
-            <div><strong>Sigilo à vista</strong><span>O aviso fica fixo no rodapé: tudo roda no computador, nada é enviado para fora.</span></div>
+            <div><strong>Versões da LD</strong><span>Duplo clique abre o relatório oficial: <span class="fname">V02 - 21-10-2026 14h54 - NAO CONFORME.pdf</span></span></div>
           </div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- ══════════════════════════════════════
-       13 — DEMONSTRAÇÃO
-  ══════════════════════════════════════ -->
+  <!-- 6 — SIGILO, DEMONSTRAÇÃO E DÚVIDAS -->
   <section class="slide slide-dark">
-    <div class="dark-tag anim" style="--d:0">Demonstração</div>
+    <div class="dark-tag anim" style="--d:0">Demonstração · Dúvidas</div>
     <div class="dark-title anim" style="--d:1">Agora, na prática</div>
-    <div class="dark-sub anim" style="--d:2">Uma pasta de demonstração com dados fictícios, do primeiro NÃO CONFORME até o CONFORME.</div>
+    <div class="dark-sub anim" style="--d:2">Uma pasta de demonstração, do primeiro NÃO CONFORME até o relatório CONFORME. Tudo processado só no computador da PGC.</div>
     <div class="glass-grid">
       <div class="glass anim" style="--d:3">
-        <span class="gi">1️⃣</span>
-        <h4>Conferir a pasta</h4>
-        <p>V01: o relatório aponta as 5 pendências.</p>
+        <span class="gi">💻</span>
+        <h4>Roda localmente</h4>
+        <p>Instalado no computador de quem confere.</p>
       </div>
       <div class="glass anim" style="--d:4">
-        <span class="gi">2️⃣</span>
-        <h4>Corrigir e conferir de novo</h4>
-        <p>V02: sobra só a ressalva das páginas.</p>
+        <span class="gi">🚫</span>
+        <h4>Sem internet</h4>
+        <p>Nenhum arquivo ou resultado é transmitido.</p>
       </div>
       <div class="glass anim" style="--d:5">
-        <span class="gi">3️⃣</span>
-        <h4>Aceitar a ressalva</h4>
-        <p>Motivo escrito, nome de quem aceitou.</p>
+        <span class="gi">🛡️</span>
+        <h4>Somente leitura</h4>
+        <p>Nada na pasta é alterado, movido ou apagado.</p>
       </div>
       <div class="glass anim" style="--d:6">
-        <span class="gi">4️⃣</span>
-        <h4>Relatório CONFORME</h4>
-        <p>V03 em PDF, com o histórico completo.</p>
+        <span class="gi">👷</span>
+        <h4>Não atesta conteúdo</h4>
+        <p>Conteúdo técnico, carimbo e assinatura seguem com a equipe.</p>
       </div>
     </div>
-  </section>
-
-  <!-- ══════════════════════════════════════
-       14 — ENCERRAMENTO
-  ══════════════════════════════════════ -->
-  <section class="slide slide-end">
-    <div class="blueprint"></div>
-    <img src="img/logo-pgc.png" class="anim" style="--d:0;width:180px;margin-bottom:34px;filter:brightness(0) invert(1);opacity:.95;position:relative" alt="PGC Engenharia">
-    <div class="cover-tag anim" style="--d:1">PGC Engenharia</div>
-    <div class="anim" style="--d:2;font-size:60px;font-weight:800;margin-bottom:18px;letter-spacing:-1px">Dúvidas?</div>
-    <div class="anim" style="--d:3;font-size:22px;color:rgba(255,255,255,0.75);margin-bottom:50px;max-width:820px;line-height:1.6">
-      Antes de o link chegar ao cliente, cada pasta passa pela conferência
-      e sai com o seu relatório oficial.
-    </div>
-    <div class="end-cards anim" style="--d:4">
-      <div class="end-card"><small>Conferência</small><b>Integral, item a item</b></div>
-      <div class="end-card"><small>Registro</small><b>Relatório oficial por versão</b></div>
-      <div class="end-card"><small>Sigilo</small><b>Processado só na PGC</b></div>
-    </div>
-    <div class="anim" style="--d:5;font-size:16px;color:rgba(255,255,255,.45);position:relative">Segurança · Precisão · Confiabilidade</div>
   </section>
 
   <div class="progress" id="progress"></div>
